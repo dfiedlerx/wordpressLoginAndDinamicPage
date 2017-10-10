@@ -1,0 +1,504 @@
+/*  ----------------------------------------------------------------------------
+    responsive settings
+*/
+/* responsive landscape tablet */
+/* responsive portrait tablet */
+/* responsive portrait phone */
+/*
+Erotic Magazine demo
+*/
+.td-erotic {
+  /*
+  header--------------------------------
+  */
+  /*
+  body--------------------------------
+  */
+  /* responsive phone */
+}
+.td-erotic .td-header-style-7 .td-header-top-menu-full .td-container,
+.td-erotic .td-header-style-7 .td-header-menu-wrap-full .td-container {
+  width: auto;
+}
+.td-erotic .td-header-style-7 .td-header-sp-top-menu {
+  padding-left: 10px !important;
+}
+.td-erotic .td-header-style-7 .td-header-sp-top-widget {
+  padding-right: 10px !important;
+}
+.td-erotic .td-header-style-7 #td-top-search {
+  /* responsive landscape device */
+}
+@media (min-width: 1141px) {
+  .td-erotic .td-header-style-7 #td-top-search {
+    bottom: 19px;
+  }
+}
+.td-erotic .td-header-style-7 .td-affix #td-top-search {
+  bottom: 0;
+}
+.td-erotic .td-header-style-7 .sf-menu {
+  float: left;
+  /* responsive landscape device */
+  /* responsive landscape tablet */
+  /* responsive portrait tablet */
+}
+@media (min-width: 1141px) {
+  .td-erotic .td-header-style-7 .sf-menu {
+    margin-top: 26px;
+  }
+}
+@media (min-width: 1019px) and (max-width: 1140px) {
+  .td-erotic .td-header-style-7 .sf-menu {
+    margin-top: 25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-erotic .td-header-style-7 .sf-menu {
+    margin-top: 7px;
+  }
+}
+.td-erotic .td-header-style-7 .td-affix .sf-menu {
+  margin-top: 0;
+}
+.td-erotic .td-header-style-7 .sf-menu > li > a:hover,
+.td-erotic .td-header-style-7 .sf-menu > .sfHover > a,
+.td-erotic .td-header-style-7 .sf-menu > .current-menu-item > a,
+.td-erotic .td-header-style-7 .sf-menu > .current-menu-ancestor > a,
+.td-erotic .td-header-style-7 .sf-menu > .current-category-ancestor > a {
+  color: #e82222;
+  background-color: transparent !important;
+}
+.td-erotic .td-header-style-7 .sf-menu > li > a:after {
+  background-color: transparent;
+}
+.td-erotic .td-header-style-7 .td-header-sp-logo {
+  margin-left: 10px;
+}
+.td-erotic .td-header-style-7 .td-header-sp-logo img {
+  /* responsive landscape tablet */
+  /* responsive portrait tablet */
+}
+@media (min-width: 1019px) and (max-width: 1140px) {
+  .td-erotic .td-header-style-7 .td-header-sp-logo img {
+    max-height: 70px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-erotic .td-header-style-7 .td-header-sp-logo img {
+    max-height: 40px;
+  }
+}
+.td-erotic .td-header-style-7 .td-affix .td-main-menu-logo {
+  margin-left: 10px;
+}
+.td-erotic .td-header-style-7 .td-affix .td-main-menu-logo img {
+  max-height: 40px !important;
+}
+.td-erotic .td-header-style-7 .td-mega-menu ul {
+  left: 0 !important;
+}
+.td-erotic .td-main-page-wrap {
+  padding-top: 0;
+}
+.td-erotic .td-erotic-grid.td-grid-style-1 {
+  /* responsive landscape wide */
+  /* responsive landscape device */
+  /* responsive landscape tablet */
+  /* responsive portrait tablet */
+  /* responsive phone */
+}
+.td-erotic .td-erotic-grid.td-grid-style-1 .td_module_mx21 .td-meta-info-container {
+  text-align: center;
+  bottom: 10px;
+}
+.td-erotic .td-erotic-grid.td-grid-style-1 .td_module_mx21 .td-meta-info-container .td-module-meta-info {
+  display: none;
+}
+.td-erotic .td-erotic-grid.td-grid-style-1 .td_module_mx21 .td-meta-info-container .entry-title {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  line-height: 34px;
+  font-weight: 400;
+}
+@media (min-width: 1601px) and (max-width: 1800px) {
+  .td-erotic .td-erotic-grid.td-grid-style-1 .td_module_mx21 .entry-title {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+}
+@media (min-width: 1141px) and (max-width: 1600px) {
+  .td-erotic .td-erotic-grid.td-grid-style-1 .td_module_mx21 .entry-title {
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
+}
+@media (min-width: 1019px) and (max-width: 1140px) {
+  .td-erotic .td-erotic-grid.td-grid-style-1 .td_module_mx21 .td-meta-info-container {
+    bottom: 0;
+  }
+  .td-erotic .td-erotic-grid.td-grid-style-1 .td_module_mx21 .td-meta-info-container .entry-title {
+    font-size: 18px !important;
+    line-height: 22px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-erotic .td-erotic-grid.td-grid-style-1 .td_module_mx21 .entry-title {
+    font-size: 14px !important;
+    line-height: 18px !important;
+  }
+}
+@media (max-width: 767px) {
+  .td-erotic .td-erotic-grid.td-grid-style-1 .td_module_mx21 .entry-title {
+    font-size: 24px !important;
+    line-height: 28px !important;
+  }
+}
+.td-erotic .td_block_template_2 .td-block-title {
+  text-align: center;
+  margin-bottom: 60px;
+  position: relative;
+}
+.td-erotic .td_block_template_2 .td-block-title:before {
+  content: '';
+  width: 40px;
+  height: 1px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #e82222;
+  opacity: 0.6;
+}
+.td-erotic .td_block_related_posts.td_block_template_2 .td-block-title {
+  margin-bottom: 16px;
+}
+.td-erotic .td_block_related_posts.td_block_template_2 .td-block-title:before {
+  display: none;
+}
+.td-erotic .td-ss-main-sidebar .td_block_template_2 .td-block-title,
+.td-erotic .td-footer-wrapper .td_block_template_2 .td-block-title {
+  text-align: left;
+  margin-bottom: 36px;
+}
+.td-erotic .td-ss-main-sidebar .td_block_template_2 .td-block-title:before,
+.td-erotic .td-footer-wrapper .td_block_template_2 .td-block-title:before {
+  left: 0;
+  right: auto;
+}
+.td-erotic .td-erotic-submodule {
+  /* responsive portrait tablet */
+}
+@media (min-width: 768px) {
+  .td-erotic .td-erotic-submodule {
+    margin-top: 30px;
+  }
+}
+.td-erotic .td-erotic-title-hidden .td-block-title,
+.td-erotic .td-erotic-title-hidden-desk .td-block-title {
+  visibility: hidden;
+}
+@media (max-width: 767px) {
+  .td-erotic .td-erotic-title-hidden-desk .td-block-title {
+    visibility: visible;
+  }
+  .td-erotic .td-erotic-title-hidden .td-block-title,
+  .td-erotic .td-erotic-title-hidden-mob .td-block-title {
+    display: none;
+  }
+}
+.td-erotic .td_module_mx17:hover .td-module-meta-info {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.13);
+}
+.td-erotic .td_module_mx17 .td-module-image {
+  margin-bottom: 0;
+  /* responsive portrait tablet */
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-erotic .td_module_mx17 .td-module-image {
+    height: 350px;
+  }
+}
+.td-erotic .td_module_mx17 .td-module-image .td-post-category {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+  margin: 0 20px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #fff;
+  color: #000;
+  padding: 15px 8px 10px;
+}
+.td-erotic .td_module_mx17 .td-module-meta-info {
+  text-align: center;
+  padding: 10px 20px 25px 20px;
+  margin: 0 20px;
+  background-color: #fff;
+  bottom: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+  /* responsive portrait tablet */
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-erotic .td_module_mx17 .td-module-meta-info {
+    padding: 0 10px 25px 10px;
+  }
+}
+.td-erotic .td_module_mx17 .entry-title {
+  margin-bottom: 55px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  /* responsive portrait tablet */
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-erotic .td_module_mx17 .entry-title {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+}
+.td-erotic .td_module_mx17 .td-module-comments {
+  display: none;
+}
+.td-erotic .td_module_mx17 .td-post-author-name,
+.td-erotic .td_module_mx17 .td-post-date {
+  font-size: 11px;
+}
+.td-erotic .td-rec-row {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  /* responsive portrait tablet */
+  /* responsive phone */
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-erotic .td-rec-row {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .td-erotic .td-rec-row {
+    margin-top: 15px;
+    margin-bottom: 18px;
+  }
+}
+.td-erotic .td-erotic-video-playlist {
+  margin-top: 30px;
+  /* responsive phone */
+}
+@media (max-width: 767px) {
+  .td-erotic .td-erotic-video-playlist {
+    margin-bottom: 30px;
+  }
+}
+.td-erotic .td_module_19 {
+  padding-bottom: 0;
+  margin-bottom: 48px;
+  height: 460px;
+  /* responsive tablet */
+}
+@media (max-width: 1018px) {
+  .td-erotic .td_module_19 {
+    height: auto;
+    border-bottom: none;
+  }
+}
+.td-erotic .td_module_19:hover .td-item-details {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.td-erotic .td_module_19 .td-module-image {
+  /* responsive portratit tablet */
+}
+@media (max-width: 1018px) {
+  .td-erotic .td_module_19 .td-module-image {
+    position: static;
+  }
+}
+.td-erotic .td_module_19 .td-module-thumb {
+  width: 530px !important;
+  height: 460px !important;
+  /* responsive portrait tablet */
+  /* responsive phone */
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-erotic .td_module_19 .td-module-thumb {
+    width: 100% !important;
+    height: 420px !important;
+  }
+}
+@media (max-width: 767px) {
+  .td-erotic .td_module_19 .td-module-thumb {
+    width: 100% !important;
+    height: 220px !important;
+  }
+  .td-erotic .td_module_19 .td-module-thumb .entry-thumb {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
+.td-erotic .td_module_19 .td-item-details {
+  text-align: center;
+  height: 460px !important;
+  margin-left: 530px !important;
+  background-color: #fff;
+  padding: 90px 70px 20px 70px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+  /* responsive landscape tablet */
+  /* responsive portrait tablet */
+  /* responsive phone */
+}
+@media (min-width: 1019px) and (max-width: 1140px) {
+  .td-erotic .td_module_19 .td-item-details {
+    padding: 70px 50px 20px 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-erotic .td_module_19 .td-item-details {
+    margin-left: 0 !important;
+    height: auto !important;
+    min-height: unset !important;
+    padding: 50px 70px;
+  }
+}
+@media (max-width: 767px) {
+  .td-erotic .td_module_19 .td-item-details {
+    margin-left: 0 !important;
+    height: auto !important;
+    min-height: unset !important;
+    padding: 50px 30px;
+  }
+  .td-erotic .td_module_19 .td-item-details .td-excerpt {
+    display: block;
+  }
+}
+.td-erotic .td_module_19 .td-post-category {
+  bottom: auto;
+  top: 0;
+}
+.td-erotic .td_module_19 .td-module-comments {
+  display: none;
+}
+.td-erotic .td_module_19 .td-post-author-name,
+.td-erotic .td_module_19 .td-post-date {
+  font-size: 12px;
+}
+.td-erotic .td_module_19 .td-excerpt {
+  font-size: 13px;
+  line-height: 22px;
+  margin-top: 30px;
+}
+.td-erotic .td_module_19 .td-read-more {
+  display: none;
+}
+.td-erotic.td_category_template_7 .td-category-title-holder {
+  padding: 80px 15% 70px;
+}
+.td-erotic.td_category_template_7 .td-category-title-holder .td-page-title {
+  position: relative;
+}
+.td-erotic.td_category_template_7 .td-category-title-holder .td-page-title:before {
+  content: '';
+  width: 60px;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #e82222;
+  opacity: 0.6;
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td-erotic.td_category_template_7 .td-category-title-holder .td-page-title:before {
+    bottom: -10px;
+  }
+}
+.td-erotic.td_category_template_7 .td-category-pulldown-filter {
+  /* responsive portrait phone */
+}
+@media (max-width: 767px) {
+  .td-erotic.td_category_template_7 .td-category-pulldown-filter {
+    display: none;
+  }
+}
+.td-erotic.td_category_template_7 .td-grid-style-1 {
+  /* responsive landscape wide */
+  /* responsive landscape device */
+  /* responsive landscape tablet */
+  /* responsive portrait tablet */
+  /* responsive phone */
+}
+.td-erotic.td_category_template_7 .td-grid-style-1 .td_module_mx20 .td-meta-info-container {
+  text-align: center;
+  bottom: 10px;
+}
+.td-erotic.td_category_template_7 .td-grid-style-1 .td_module_mx20 .td-meta-info-container .td-module-meta-info {
+  display: none;
+}
+.td-erotic.td_category_template_7 .td-grid-style-1 .td_module_mx20 .td-meta-info-container .entry-title {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 400;
+}
+@media (min-width: 1601px) and (max-width: 1800px) {
+  .td-erotic.td_category_template_7 .td-grid-style-1 .td_module_mx20 .entry-title {
+    font-size: 32px !important;
+    line-height: 38px !important;
+  }
+}
+@media (min-width: 1141px) and (max-width: 1600px) {
+  .td-erotic.td_category_template_7 .td-grid-style-1 .td_module_mx20 .entry-title {
+    font-size: 28px !important;
+    line-height: 34px !important;
+  }
+}
+@media (min-width: 1019px) and (max-width: 1140px) {
+  .td-erotic.td_category_template_7 .td-grid-style-1 .td_module_mx20 .td-meta-info-container {
+    bottom: 0;
+  }
+  .td-erotic.td_category_template_7 .td-grid-style-1 .td_module_mx20 .td-meta-info-container .entry-title {
+    font-size: 24px !important;
+    line-height: 28px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1018px) {
+  .td-erotic.td_category_template_7 .td-grid-style-1 .td_module_mx20 .entry-title {
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
+}
+@media (max-width: 767px) {
+  .td-erotic.td_category_template_7 .td-grid-style-1 .td_module_mx20 .entry-title {
+    font-size: 24px !important;
+    line-height: 28px !important;
+  }
+}
+.td-erotic .td_module_8 .entry-title {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Playfair Display", serif;
+}
+.td-erotic .td_module_8 .td-module-comments {
+  display: none;
+}
+.td-erotic .td-footer-wrapper.td-footer-template-4 {
+  padding: 40px 0 0 0;
+}
+.td-erotic .td-footer-wrapper .td-retina-data {
+  max-width: 160px;
+}
+.td-erotic .td-social-style-2 .td-icon-font:after {
+  display: none;
+}
+.td-erotic .td-live-theme-demos .td-skin-buy a {
+  background-color: #e82222;
+}

@@ -1,0 +1,647 @@
+@import "../../less_files/variables.less";
+
+
+/*
+Erotic Magazine demo
+*/
+
+
+.td-erotic {
+
+  /*
+  header--------------------------------
+  */
+
+  .td-header-style-7 {
+
+    //top bar and menu bar made full
+    .td-header-top-menu-full,
+    .td-header-menu-wrap-full {
+      .td-container {
+        width: auto;
+      }
+    }
+
+    //top menu left padding
+    .td-header-sp-top-menu {
+      padding-left: 10px !important;
+    }
+
+    //top menu right padding
+    .td-header-sp-top-widget {
+      padding-right: 10px !important;
+    }
+
+    //magnifier align
+    #td-top-search {
+
+      /* responsive landscape device */
+      @media (min-width: 1141px) {
+        bottom: 19px;
+      }
+    }
+
+    .td-affix #td-top-search {
+      bottom: 0;
+    }
+
+    //main menu align
+    .sf-menu {
+      float: left;
+
+      /* responsive landscape device */
+      @media (min-width: 1141px) {
+        margin-top: 26px;
+      }
+
+      /* responsive landscape tablet */
+      @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+        margin-top: 25px;
+      }
+
+      /* responsive portrait tablet */
+      @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+        margin-top: 7px;
+      }
+
+    }
+
+    //sticky menu bar
+    .td-affix .sf-menu {
+      margin-top: 0;
+    }
+
+    //hover & active menu settings
+    .sf-menu > li > a:hover,
+    .sf-menu > .sfHover > a,
+    .sf-menu > .current-menu-item > a,
+    .sf-menu > .current-menu-ancestor > a,
+    .sf-menu > .current-category-ancestor > a {
+      color: #e82222;
+      background-color: transparent !important;
+    }
+
+    //border under active menu item - invisible
+    .sf-menu > li > a:after {
+      background-color: transparent;
+    }
+
+    //logo align
+    .td-header-sp-logo {
+      margin-left: 10px;
+
+      img {
+        /* responsive landscape tablet */
+        @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+          max-height: 70px;
+        }
+
+        /* responsive portrait tablet */
+        @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+          max-height: 40px;
+        }
+      }
+    }
+
+    //sticky menu bar
+    .td-affix {
+      .td-main-menu-logo {
+        margin-left: 10px;
+
+        img {
+          max-height: 40px !important;
+        }
+      }
+    }
+
+    //mega menu align
+    .td-mega-menu ul {
+      left: 0 !important;
+    }
+
+  }
+
+  /*
+  body--------------------------------
+  */
+
+  //main page top wrap canceled
+  .td-main-page-wrap {
+    padding-top: 0;
+  }
+
+  //big grid
+  .td-erotic-grid.td-grid-style-1 {
+
+    //article titles
+    .td_module_mx21 {
+      .td-meta-info-container {
+        text-align: center;
+        bottom: 10px;
+
+        .td-module-meta-info {
+          display: none;
+        }
+
+        .entry-title {
+          font-family: "Playfair Display", serif;
+          font-size: 28px;
+          line-height: 34px;
+          font-weight: 400;
+        }
+      }
+    }
+
+    /* responsive landscape wide */
+    @media (min-width: 1601px) and (max-width: 1800px) {
+      .td_module_mx21 {
+        .entry-title {
+          font-size: 24px !important;
+          line-height: 30px !important;
+        }
+      }
+    }
+
+    /* responsive landscape device */
+    @media (min-width: 1141px) and (max-width: 1600px) {
+      .td_module_mx21 {
+        .entry-title {
+          font-size: 20px !important;
+          line-height: 24px !important;
+        }
+      }
+    }
+
+    /* responsive landscape tablet */
+    @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+      .td_module_mx21 {
+        .td-meta-info-container {
+          bottom: 0;
+
+          .entry-title {
+            font-size: 18px !important;
+            line-height: 22px !important;
+          }
+        }
+      }
+    }
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      .td_module_mx21 {
+        .entry-title {
+          font-size: 14px !important;
+          line-height: 18px !important;
+        }
+      }
+    }
+
+    /* responsive phone */
+    @media (max-width: @responsive_p_phone_max) {
+      .td_module_mx21 {
+        .entry-title {
+          font-size: 24px !important;
+          line-height: 28px !important;
+        }
+      }
+    }
+  }
+
+  //block titles
+  .td_block_template_2 .td-block-title {
+    text-align: center;
+    margin-bottom: 60px;
+    position: relative;
+
+    &:before {
+      content:'';
+      width: 40px;
+      height: 1px;
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      background-color: #e82222;
+      opacity: 0.6;
+    }
+  }
+
+  .td_block_related_posts.td_block_template_2 .td-block-title {
+    margin-bottom: 16px;
+
+    &:before {
+      display: none;
+    }
+  }
+
+  .td-ss-main-sidebar,
+  .td-footer-wrapper {
+
+    .td_block_template_2 .td-block-title {
+      text-align: left;
+      margin-bottom: 36px;
+
+      &:before {
+        left: 0;
+        right: auto;
+      }
+    }
+  }
+
+
+
+  //submodules margin top
+  .td-erotic-submodule {
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) {
+      margin-top: 30px;
+    }
+  }
+
+  //hiding the block title
+  .td-erotic-title-hidden,
+  .td-erotic-title-hidden-desk{
+    .td-block-title {
+      visibility: hidden;
+    }
+  }
+
+  /* responsive phone */
+  @media (max-width: @responsive_p_phone_max) {
+    .td-erotic-title-hidden-desk{
+      .td-block-title {
+        visibility: visible;
+      }
+    }
+
+    .td-erotic-title-hidden,
+    .td-erotic-title-hidden-mob{
+      .td-block-title {
+        display: none;
+      }
+    }
+  }
+
+
+  //module mx17
+  .td_module_mx17 {
+
+    &:hover {
+      .td-module-meta-info {
+        box-shadow: 0 4px 10px rgba(0,0,0,0.13);
+      }
+    }
+
+    .td-module-image {
+      margin-bottom: 0;
+
+      /* responsive portrait tablet */
+      @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+        height: 350px;
+      }
+
+      .td-post-category {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 15px;
+        margin: 0 20px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 700;
+        background-color: #fff;
+        color: #000;
+        padding: 15px 8px 10px;
+      }
+    }
+
+    .td-module-meta-info {
+      text-align: center;
+      padding: 10px 20px 25px 20px;
+      margin: 0 20px;
+      background-color: #fff;
+      bottom: 15px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.2s ease;
+
+      /* responsive portrait tablet */
+      @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+        padding: 0 10px 25px 10px;
+      }
+    }
+
+    .entry-title {
+      margin-bottom: 55px;
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 700;
+
+      /* responsive portrait tablet */
+      @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 700;
+      }
+    }
+
+    .td-module-comments {
+      display: none;
+    }
+
+    .td-post-author-name,
+    .td-post-date {
+      font-size: 11px;
+    }
+  }
+
+  //custom ad
+  .td-rec-row {
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+
+    /* responsive phone */
+    @media (max-width: @responsive_p_phone_max) {
+      margin-top: 15px;
+      margin-bottom: 18px;
+    }
+  }
+
+  //video playlist
+  .td-erotic-video-playlist {
+    margin-top: 30px;
+
+    /* responsive phone */
+    @media (max-width: @responsive_p_phone_max) {
+      margin-bottom: 30px;
+    }
+  }
+
+
+  //module 19 on 3 columns
+
+  .td_module_19 {
+    padding-bottom: 0;
+    margin-bottom: 48px;
+    height: 460px;
+
+    /* responsive tablet */
+    @media (max-width: @responsive_p_tablet_max) {
+      height: auto;
+      border-bottom: none;
+    }
+
+    &:hover {
+      .td-item-details {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      }
+    }
+
+    .td-module-image {
+      /* responsive portratit tablet */
+      @media (max-width: @responsive_p_tablet_max) {
+        position: static;
+      }
+    }
+
+    .td-module-thumb {
+      width: 530px !important;
+      height: 460px !important;
+
+      /* responsive portrait tablet */
+      @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+        width: 100% !important;
+        height: 420px !important;
+      }
+
+      /* responsive phone */
+      @media (max-width: @responsive_p_phone_max) {
+        width: 100% !important;
+        height: 220px !important;
+
+        .entry-thumb {
+          width: 100% !important;
+          height: auto !important;
+        }
+      }
+    }
+
+    .td-item-details {
+      text-align: center;
+      height: 460px !important;
+      margin-left: 530px !important;
+      background-color: #fff;
+      padding: 90px 70px 20px 70px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.2s ease;
+
+      /* responsive landscape tablet */
+      @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+        padding: 70px 50px 20px 50px;
+      }
+
+      /* responsive portrait tablet */
+      @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+        margin-left: 0 !important;
+        height: auto !important;
+        min-height: unset !important;
+        padding: 50px 70px;
+      }
+
+      /* responsive phone */
+      @media (max-width: @responsive_p_phone_max) {
+        margin-left: 0 !important;
+        height: auto !important;
+        min-height: unset !important;
+        padding: 50px 30px;
+
+        .td-excerpt {
+          display: block;
+        }
+      }
+
+    }
+
+    .td-post-category {
+      bottom: auto;
+      top: 0;
+    }
+
+    .td-module-comments {
+      display: none;
+    }
+
+    .td-post-author-name,
+    .td-post-date {
+      font-size: 12px;
+    }
+
+    .td-excerpt {
+      font-size: 13px;
+      line-height: 22px;
+      margin-top: 30px;
+    }
+
+    .td-read-more {
+      display: none;
+    }
+  }
+
+
+
+  //category page
+  //big grid
+  &.td_category_template_7 {
+
+    .td-category-title-holder {
+      padding: 80px 15% 70px;
+
+      .td-page-title {
+        position: relative;
+
+        &:before {
+          content:'';
+          width: 60px;
+          height: 1px;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+          background-color: #e82222;
+          opacity: 0.6;
+
+          /* responsive portrait phone */
+          @media (max-width: @responsive_p_phone_max) {
+            bottom: -10px;
+          }
+        }
+      }
+    }
+
+
+    .td-category-pulldown-filter {
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+        display: none;
+      }
+    }
+
+    .td-grid-style-1 {
+
+      //article titles
+      .td_module_mx20 {
+        .td-meta-info-container {
+          text-align: center;
+          bottom: 10px;
+
+          .td-module-meta-info {
+            display: none;
+          }
+
+          .entry-title {
+            font-family: "Playfair Display", serif;
+            font-size: 36px;
+            line-height: 42px;
+            font-weight: 400;
+          }
+        }
+      }
+
+      /* responsive landscape wide */
+      @media (min-width: 1601px) and (max-width: 1800px) {
+        .td_module_mx20 {
+          .entry-title {
+            font-size: 32px !important;
+            line-height: 38px !important;
+          }
+        }
+      }
+
+      /* responsive landscape device */
+      @media (min-width: 1141px) and (max-width: 1600px) {
+        .td_module_mx20 {
+          .entry-title {
+            font-size: 28px !important;
+            line-height: 34px !important;
+          }
+        }
+      }
+
+      /* responsive landscape tablet */
+      @media (min-width: @responsive_l_tablet_min) and (max-width: @responsive_l_tablet_max) {
+        .td_module_mx20 {
+          .td-meta-info-container {
+            bottom: 0;
+
+            .entry-title {
+              font-size: 24px !important;
+              line-height: 28px !important;
+            }
+          }
+        }
+      }
+
+      /* responsive portrait tablet */
+      @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+        .td_module_mx20 {
+          .entry-title {
+            font-size: 20px !important;
+            line-height: 24px !important;
+          }
+        }
+      }
+
+      /* responsive phone */
+      @media (max-width: @responsive_p_phone_max) {
+        .td_module_mx20 {
+          .entry-title {
+            font-size: 24px !important;
+            line-height: 28px !important;
+          }
+        }
+      }
+    }
+  }
+
+  //sidebar
+  .td_module_8 {
+    .entry-title {
+      font-size: 15px;
+      font-weight: 700;
+      font-family: "Playfair Display", serif;
+    }
+
+    .td-module-comments {
+      display: none;
+    }
+  }
+
+
+  //footer
+  .td-footer-wrapper.td-footer-template-4 {
+    padding: 40px 0 0 0;
+  }
+
+  .td-footer-wrapper .td-retina-data {
+    max-width: 160px;
+  }
+
+  .td-social-style-2 .td-icon-font:after {
+    display: none;
+  }
+
+  //demo pannel download button
+  // demos button
+  .td-live-theme-demos .td-skin-buy a {
+    background-color: #e82222;
+  }
+}

@@ -1,0 +1,105 @@
+// ads placeholders
+.td-theme-wrap .td-header-wrap {
+
+  // ---- header ad ----
+  .td-spot-id-header {
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
+
+    /* responsive portrait tablet */
+    @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+      height: 60px;
+      margin-top: 14px !important;
+      margin-bottom: 14px !important;
+    }
+    /* responsive portrait phone */
+    @media (max-width: @responsive_p_phone_max) {
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+    }
+  }
+  &.td-header-style-1,
+  &.td-header-style-2,
+  &.td-header-style-3 {
+    .td-spot-id-header {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+      }
+    }
+  }
+  &.td-header-style-5,
+  &.td-header-style-6,
+  &.td-header-style-7,
+  &.td-header-style-8,
+  &.td-header-style-9,
+  &.td-header-style-10,
+  &.td-header-style-11,
+  &.td-header-style-12 {
+    .td-spot-id-header {
+      margin-bottom: 0 !important;
+
+      /* responsive portrait tablet */
+      @media (min-width: @responsive_p_tablet_min) and (max-width: @responsive_p_tablet_max) {
+        margin-top: 14px !important;
+        margin-bottom: 0 !important;
+      }
+      /* responsive portrait phone */
+      @media (max-width: @responsive_p_phone_max) {
+        margin-bottom: 10px !important;
+      }
+    }
+  }
+}
+
+// ---- footer ad ----
+.td-theme-wrap .td-spot-id-footer_top {
+  display: table;
+  position: relative;
+  text-align: center;
+  margin: -12px auto 40px auto;
+
+  .tdc-placeholder-title {
+    border: 1px solid rgba(136, 136, 136, 0.31);
+  }
+}
+
+// error message that shows up when a requiered setting is missing from the block (weather widget / video playlist etc)
+.tdc-missing-external-shortcode,
+.td-block-missing-settings,
+.tdc_external_shortcode {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 11px;
+  font-weight: normal;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #eeecf0;
+  color: black;
+
+  span {
+    background-color: #ec4d4d;
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px 4px;
+    font-size: 10px;
+    position: relative;
+    top: -1px;
+    margin-right: 10px;
+  }
+}
+
+// used for background images on row/column/blocks
+.td-element-style {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  top:  0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
